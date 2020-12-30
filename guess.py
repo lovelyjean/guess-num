@@ -16,3 +16,4 @@ while True:
 			print('the answer is smaller than ', num)
 		else:
 			print('the answer is larger than ', num)
+	print('you have guessed ', cnt , 'times')		
