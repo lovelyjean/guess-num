@@ -1,6 +1,10 @@
 import random
+start = input('please define the start number: ')
+end = input('please define the end number: ')
+start = int(start)
+end = int(end)
 
-r = random.randint(1, 100)
+r = random.randint(start, end)
 cnt = 0
 
 while True:
